@@ -1,0 +1,12 @@
+package day_1;
+
+public class Day_1 {
+
+    public static void main(String[] args) {
+      //SAYA SEDANG MEMBUAT TUGAS DI HARI PERTAMA//
+        System.out.println("hallo word");
+        System.out.println("semua akan indah kalau ada duitnya, pinjam dong kak seratus hehe");
+        
+    }
+    
+}
