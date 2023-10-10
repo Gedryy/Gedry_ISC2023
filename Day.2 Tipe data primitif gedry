@@ -1,0 +1,61 @@
+package javaapplication16;
+
+public class JavaApplication16 {
+
+    public static void main(String[] args) {
+        /*nama saya
+        
+         */
+
+        byte a;
+        a = 21;
+        System.out.println("tanggal lahir saya adalah = " + a + " Mei ");
+        
+        
+        short b;
+        b = 11;
+        System.out.println("nomor rumah saya adalah = " + b);
+        
+        
+        int c;
+        c = 18;
+        System.out.println("saya berumur = " + c + " tahun ");
+        
+        
+        long d;
+        d = 112233;
+        System.out.println("nomor telfon rumah saya adalah = "+ d);
+        
+        
+        float e;
+        e = 81256437264f;
+        System.out.println("nomor Whatsaap saya adalah = "+e);
+        
+        
+        
+        double f;
+        f = 1.65;
+        System.out.println("tinggi badan saya adalah = "+ f);
+        
+        
+        
+        char g;
+        g = 'L';
+        System.out.println("jenis kelamin saya adalah = "+g);
+        
+        
+        
+        boolean h1;
+        h1 = true;
+        boolean h2;
+        h2 = false;
+        System.out.println(5>2);
+        
+      
+        
+        
+        
+        
+    }
+
+}
