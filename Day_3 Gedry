@@ -1,0 +1,29 @@
+package ap;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        String nama, alamat;
+        nama = " Gedry";
+        alamat = " Kalimantan,tapi sekarang di hatinya hehe ;) ";
+        System.out.println("Nama \t\t:" + nama + " \nAlamat \t\t: " + alamat);
+        Byte a = 5;
+        Short b = 12;
+        Integer c = 1;
+        System.out.println("angka favorit= " + a + " Jumlah bulan= "+ b + " DDP nomor = " + c);
+        long d = 51201;
+        Long variabel = d;
+        Float f = 50.0f;
+        System.out.println("Berat badan \t: " + f + " kg");
+        Double g = 165.5;
+        System.out.println("Tinggi badan \t: " + g + " cm");
+        Character gender = 'L';
+        System.out.println("Gender \t\t: " + gender);
+        Boolean Habis_uang = true;
+        System.out.println("Stay Halal \t: " + Habis_uang);
+        
+        
+        
+    }
+    
+}
