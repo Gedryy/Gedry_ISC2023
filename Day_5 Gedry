@@ -1,0 +1,23 @@
+package javaapplicationday5_gedry;
+
+public class JavaApplicationDay5_Gedry {
+    
+    public static void main(String[] args) {
+     
+        int nilaiSatu;
+        int nilaiDua = 50;
+        int hasilPenjumblahan;
+        /* mengisi variabel */
+        nilaiSatu = 20;
+        hasilPenjumblahan = nilaiSatu+nilaiDua;
+        // panggil dan cetak
+        System.out.println("Nilai satu = "+ nilaiSatu );
+        System.out.println("nilai dua = "+ nilaiDua );
+        System.out.println("nilai 1 + nilai 2 = "+hasilPenjumblahan);
+        System.out.println("nilai 1 - nilai 2 = "+ (nilaiSatu-nilaiDua));
+        
+        
+        
+    }
+    
+}
