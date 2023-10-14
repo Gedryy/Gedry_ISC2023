@@ -1,0 +1,28 @@
+package iscday6;
+
+public class ISCday6 {
+
+        public static void main(String[] args) {
+        int g;
+        float e;
+        double d;
+        String r;
+        char y;
+        boolean saya_basah_kuyup_ditinambung;
+        
+        g = 12;
+        e = 11f;
+        d = 12.9;
+        r  = "gedry";
+         y = 'g';
+         saya_basah_kuyup_ditinambung = true; 
+        
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+    }
+    
+}
