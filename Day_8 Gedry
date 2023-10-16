@@ -1,0 +1,23 @@
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        final double phi = 3.14;
+        double L, K, r, d;
+        r = 12;
+        d = 2 * r;
+        
+        L = phi * r * r;
+        K = phi * d;
+        
+        System.out.println("L = "+ L);
+        System.out.println("K = "+ K);
+        
+        
+        
+        
+        
+    }
+    
+}
