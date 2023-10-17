@@ -1,0 +1,32 @@
+package javaapplication19;
+
+
+public class JavaApplication19 {
+
+    
+    public static void main(String[] args) {
+      
+      
+        int a = 20;
+        
+        System.out.println("jika  a adalah 20 apakah ="+ (a == 20));
+        
+        System.out.println("jika  a adalah 20 apakah ="+ (a != 20));
+        
+        System.out.println("jika  a adalah 20 apakah ="+ (a <= 20));
+        
+        System.out.println("jika  a adalah 20 apakah ="+ (a >= 20));
+        
+        System.out.println("jika  a adalah 20 apakah ="+ (a > 10));
+        
+        System.out.println("jika  a adalah 20 apakah ="+ (a < 70));
+        
+         
+        
+        
+        
+        
+       
+    }
+    
+}
