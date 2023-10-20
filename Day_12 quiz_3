@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan bilangan bulat m: ");
+        int m = scanner.nextInt();
+        System.out.print("Masukkan bilangan bulat n: ");
+        int n = scanner.nextInt();
+        
+        if (m < n) {
+            int total = 0;
+            for (int i = m + 1; i < n; i++) {
+                System.out.print(i);
+                total += i;
+                if (i < n - 1) {
+                    System.out.print(" + ");
+                }
+            }
+            System.out.println(" = " + total);
+        } else {
+            System.out.println("Bilangan m harus lebih kecil dari n.");
+        }
+    }
+}
