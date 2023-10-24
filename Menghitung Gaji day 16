@@ -1,0 +1,25 @@
+package rianday13quiz;
+
+public class RianDay13Quiz {
+
+        public static void main(String[] args) {
+      int total = 100000;
+            System.out.println("Belanja = RP. "+ total);
+      if(total >= 100000){
+          System.out.println("dapat diskon 10%");
+          double diskon = 10 * total / 100;
+          total -= diskon;
+          
+      }   else {
+          System.out.println("tidak dapat diskon ");
+      }    
+       
+            System.out.println("Akhir = "+total);
+      
+            
+      
+      
+        
+    }
+    
+}
