@@ -1,0 +1,40 @@
+package qiuz17;
+import java.util.Scanner;
+public class Qiuz17 {
+
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        int panjang_tanah,lebar_tanah, HargaPerMeter,luas_tanah, harga_jual;
+        
+        System.out.print("masukn panjang tanah\t: ");
+        panjang_tanah = input.nextInt();
+        
+        System.out.print("masukan lebar tanah\t: ");
+        lebar_tanah = input.nextInt();
+        
+        HargaPerMeter = 300000;
+        
+        luas_tanah = panjang_tanah*lebar_tanah;
+        System.out.print("luas tanah adalah\t: "+ luas_tanah + "m2 \n");
+        
+        harga_jual = HargaPerMeter*luas_tanah;
+        System.out.print("harga jualnya \t\t: "+ harga_jual);
+        
+        
+        if(harga_jual < 50000000){
+            System.out.print("\n harga tanah ada dikenakan pajak 1% ");
+            System.out.print("\njadi harga bersih penjualan tanahanya adalah\n: RP "+ (harga_jual-(harga_jual*0.01)));
+            
+        }else if (harga_jual >= 50000000 && harga_jual <= 100000000);
+        System.out.print("\nharga tanah anda dikenakan pajak sebesar 3% ");
+        System.out.print("\njadi harga bersih penjualan tanah anda adalah\n: RP"+ (harga_jual-(harga_jual*0.03)));
+        
+    }else if (harga_jual > 100000000){
+            System.out.print("\nharga tanah anda diknakan pajak sebesar 5%");
+            System.out.print("\njadi hasil bersih penjualan tanah anda adalah\n: RP "+ (harga_jual-(harga_jual*0.05));    
+    
+    
+        }  
+    }
