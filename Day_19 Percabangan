@@ -1,0 +1,27 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+      Scanner input = new Scanner (System.in);
+        
+        String user = "user";
+        int pasword = 12345;
+        
+        System.out.print("masukan user anda\t:");
+        user = input.nextLine();
+        
+        System.out.print("masukan pasword anda\t:");
+        pasword = input.nextInt();
+        
+    if (user.equals("user") && pasword == 12345){
+        System.out.print("\tlogin berhasil ");
+        
+    } else {
+        System.out.print("\tlogin gagal");
+    }
+        
+        
+    }
+        
+}
