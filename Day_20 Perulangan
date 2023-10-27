@@ -1,0 +1,37 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(" Pilih Calon Presiden \t ");
+        System.out.println(" 1. Prabowo ");
+        System.out.println(" 2. Ganjar ");
+        System.out.println(" 3. Anis ");
+        System.out.println(" 4. Jainuddin ");
+        System.out.println(" pilih salah satunya ");
+        int lol = input.nextInt();
+        switch(lol){
+            case 1 :
+            System.out.println(" Bagus sih, tapi ada tapinya ");
+            break;
+            
+            case 2 :
+            System.out.println(" Takut sama banteng sih ini ");
+            break;
+            
+            case 3 :
+            System.out.println(" ngomong doang, kerja gak ada ");
+            break;
+             
+            case 4 :
+            System.out.println(" inilah jawaban dari tiga paslon di atas, ini lebih parah:) ");
+            break;
+            
+            
+        
+        
+        } 
+    }
+    
+}
