@@ -1,0 +1,17 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Berapa umur?");
+        int umur = input.nextInt();
+        
+        if (umur >= 18) {
+            System.out.println("Sudah bisa bikin SIM, Bisa balapan sekarang ");
+            
+        }else {
+            System.out.print("maaf, anda belum bisa bikin SIM, harus gede dulu");
+    }
+    }
+}
