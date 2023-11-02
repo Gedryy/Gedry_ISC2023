@@ -1,0 +1,22 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+        
+        int awal, akhir;
+        
+        System.out.println(" Range Angka ");
+        System.out.print( " nilai awal :");
+        awal = masuk.nextInt();
+        System.out.print(" nilai akhir :");
+        akhir = masuk.nextInt();
+        
+        
+        for(int a = awal; a <= akhir ; a++){
+            System.err.print(a+ " ");
+        }      
+    }
+    
+}
