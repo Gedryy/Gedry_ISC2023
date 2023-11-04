@@ -1,0 +1,74 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+        
+        int nilai1, nilai2, total;
+        
+        System.out.println(" PENJULAHAN");
+        System.out.print(" Nilai1 :");
+        nilai1 = masuk.nextInt();
+        System.out.print(" Nilai2 :");
+        nilai2 = masuk.nextInt();
+        
+        total = nilai1+nilai2;
+        System.out.println(" jadi penjumlahan dari nilai1 + niali2 = "+total);
+        
+        
+        System.out.println(" PENGURANGAN");
+        System.out.print(" nilai1 :");
+        nilai1 = masuk.nextInt();
+        System.out.print(" nilai2 :");
+        nilai2 = masuk.nextInt();
+        
+        total = nilai1-nilai2;
+        System.out.println(" jadi pengurangan dari nilai1 - niali2 = "+total);
+        
+        
+        
+        System.out.println(" PERKALIAN");
+        System.out.print(" nilai1 :");
+        nilai1 = masuk.nextInt();
+        System.out.print(" nilai2 :");
+        nilai2 = masuk.nextInt();
+        
+        total = nilai1*nilai2;
+        System.out.println(" jadi perkalian dari nilai1 * niali2 = "+total);
+        
+        
+        
+        System.out.println(" PEMBAGIAN");
+        System.out.print(" nilai1 :");
+        nilai1 = masuk.nextInt();
+        System.out.print(" nilai2 :");
+        nilai2 = masuk.nextInt();
+        
+        total = nilai1/nilai2;
+        System.out.println(" jadi pembagian dari nilai1 / niali2 = "+total);
+        
+        
+        
+        System.out.println(" SISA BAGI");
+        System.out.print(" nilai1 :");
+        nilai1 = masuk.nextInt();
+        System.out.print(" nilai2 :");
+        nilai2 = masuk.nextInt();
+        
+        total = nilai1%nilai2;
+        System.out.println(" jadi sisa bagi dari nilai1 % niali2 = "+total);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
