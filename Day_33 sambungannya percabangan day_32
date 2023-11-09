@@ -1,0 +1,36 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+        
+    String menu = null;
+        int pilihan, harga=0, porsi;
+        System.out.println("---- MENU MAKANAN ----");
+        System.out.println("1. Bakso\n2. Nasi goreng\n3. Mie ayam");
+        System.out.print(" Pilihan : ");
+        pilihan = masuk.nextInt();
+        
+        if (pilihan == 1 ){
+            menu = "Bakso ";
+            harga = 10000;
+        }else if (pilihan == 2){
+                menu = "Nasi goreng";
+            harga = 13000; 
+        }else if (pilihan == 3){
+                menu = " Mie ayam";
+        harga = 10000;
+            
+        
+        
+    }
+        System.out.print("Jml Porsi :");
+        porsi = masuk.nextInt();
+    System.out.println("================");
+        System.out.println(" Menu di pesan :");
+        System.out.print(menu+ " - Rp "+ harga + " /porsi.");
+        harga = harga * porsi;
+        System.out.println(" Total bayar :"+ harga);
+    }      
+}
