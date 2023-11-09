@@ -1,0 +1,30 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+        
+    String menu = null;
+        int pilihan;
+        System.out.println("---- MENU MAKANAN ----");
+        System.out.println("1. Bakso\n2. Nasi goreng\n3. Mie ayam");
+        System.out.print(" Pilihan : ");
+        pilihan = masuk.nextInt();
+        
+        if (pilihan == 1 ){
+            menu = "Bakso ";
+            
+        }else if (pilihan == 2){
+                menu = "Nasi goreng";
+        }else if (pilihan == 3){
+                menu = " Mie ayam";
+            
+        
+        
+    }
+    System.out.println("================");
+        System.out.println(" Menu di pesan :");
+        System.out.println(menu);
+    }      
+}
