@@ -1,0 +1,40 @@
+package javagedryday36;
+
+import java.util.Scanner;
+
+public class JavaGedryDay36 {
+
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+        double harga = 0, diskon = 0;
+        int pilihan, porsi;
+        String menu = null;
+        System.out.println("---- Aneka Bakso ----");
+        System.out.println("1. Lokal\n2. Luar Negeri");
+        System.out.print(" Pilihan \t\t: ");
+        pilihan = masuk.nextInt();
+        System.out.print(" porsi \t\t\t: ");
+        porsi = masuk.nextInt();
+        if (pilihan == 1) {
+            menu = " Bakso Lokal";
+            harga = 8000;
+
+        } else if (pilihan == 2) {
+            menu = " Bakso luar negeri";
+            harga = 10000;
+            if (porsi >= 5){
+                diskon = 5 * ( harga * porsi)/100;
+                System.out.println(" Diskon 5% -Rp "+ diskon);
+              
+            }else { 
+                System.out.println(" Diskon 5% min 5 porsi");
+            }
+        }
+        System.out.println("========================");
+        System.out.println("Menu terpilih : ");
+        System.out.println(menu + " - Rp. " + harga + "/porsi");
+        harga = harga * porsi - diskon;
+        System.out.println("Total /porsi \t: Rp. " + harga);
+
+    }
+}
