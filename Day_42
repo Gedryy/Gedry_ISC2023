@@ -1,0 +1,21 @@
+package array_rata.ratagedry;
+
+public class Array_rataRataGedry {
+
+    public static void main(String[] args) {
+        
+        int [] a = {1,2,3};
+        int total = 0;
+        int jml_index = a.length;
+        
+       
+        for(int i = 0; i < jml_index; i++){
+            total += a[i];
+        }
+        System.out.println(total);
+        
+        
+        
+    }
+
+}
