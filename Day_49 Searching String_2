@@ -1,0 +1,21 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner rahel = new Scanner(System.in);
+        String [] a = {
+            " Kamu ",
+            " itu ",
+            " cantik"
+        };
+        String cari;
+        for( int i = 0; i < a.length; i++){
+            System.out.println(a[i]);
+    }
+    System.out.println("--------------");
+        System.out.print(" Cari :");
+        cari = rahel.nextLine();
+        System.out.println(cari);
+}
+}
