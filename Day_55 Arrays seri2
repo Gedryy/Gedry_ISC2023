@@ -1,0 +1,21 @@
+package Java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        //nama
+        //alamat
+        String [][] nama ={
+            { " Udin", " (Simbang)"},
+            {" Gedry" , " (hatinya)"}
+            
+            
+        }; 
+        System.out.print(nama[1][0]);
+        System.out.print(nama[1][1]);
+        
+        
+    }
+        
+    }        
