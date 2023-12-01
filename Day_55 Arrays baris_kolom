@@ -1,0 +1,19 @@
+package Java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        
+        
+        String [][] kontak = {
+            {" Rahel \t", " (*123#)"},
+            {" Axis \t", " (*999#("},
+            {" Telkom\t", " (*888#)"}
+            
+        };
+          System.out.println(kontak.length);
+          System.out.println(kontak[0].length);
+    }
+        
+    }        
