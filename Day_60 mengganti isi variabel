@@ -1,0 +1,13 @@
+package Java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        String [] nama = {"Ikan"," Telur"," Ayam"};
+        nama [0] = " Sayur";
+        System.out.println(nama[0]);
+        
+        
+    }
+    
+}
