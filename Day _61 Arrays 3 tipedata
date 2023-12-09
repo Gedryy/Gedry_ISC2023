@@ -1,0 +1,14 @@
+class BelajarJava {
+  public static void main(String args[]){
+        
+    String[] siswa = {"Andi", "Anto", "Rissa"};
+    int[] harga    = {5000, 200, 450000, 3500};
+    char[] nilai   = {'A','b','$','@'};
+     
+    System.out.println( siswa[0] );  
+    System.out.println( siswa[1] );
+    System.out.println( harga[3] );
+    System.out.println( nilai[2] );
+ 
+  }
+}
