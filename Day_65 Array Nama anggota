@@ -1,0 +1,28 @@
+package Java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        String [] namaMahasiswa = new String[5];
+        
+            namaMahasiswa[0] = " Gedry";
+            namaMahasiswa[1] = " Udin";
+            namaMahasiswa[2] = " Aril";
+            namaMahasiswa[3] = " Kholil";
+            namaMahasiswa[4] = " Rian";
+        
+        System.out.println(namaMahasiswa[0]);
+        System.out.println(namaMahasiswa[1]);
+        System.out.println(namaMahasiswa[2]);
+        System.out.println(namaMahasiswa[3]);
+        System.out.println(namaMahasiswa[4]);
+        
+            }
+        }
+    
+
+        
+        
+        
+    
