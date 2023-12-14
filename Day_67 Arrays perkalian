@@ -1,0 +1,15 @@
+package Java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int [][] a = {
+            {20},
+            {10}
+        };
+    System.out.println(a[0][0]*a[1][0]);    
+        
+    }
+    
+    
+}
