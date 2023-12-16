@@ -1,0 +1,28 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        Scanner Rahel = new Scanner(System.in);
+        System.out.print("Masukkan nilai batas atas: ");
+        int atas = Rahel.nextInt();
+        
+        int hasil = hitungTotal(atas);
+        
+        System.out.println("Total penjumlahan hingga " + atas + " adalah: " + hasil);
+        
+        Rahel.close();
+    }
+    
+    public static int hitungTotal(int atas) {
+        int total = 0;
+        for (int i = 1; i <= atas; i++) {
+            total += i;
+        }
+        return total;
+    }
+}
+        
+        
+    
