@@ -1,0 +1,23 @@
+package Java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        double mtk, bind, bing, ipa, jml, rata, kkm;
+        mtk = 80;
+        bind = 75;
+        bing = 85;
+        ipa = 90;
+        jml = mtk+bind+bing+ipa;
+        rata = jml / 4 ;
+        kkm = 75;
+        System.out.print(rata);
+        
+        if(rata >= kkm){
+        System.out.println(" Tuntas");
+        
+    } else {
+        System.out.println(" Tidak Tuntas");
+    }
+    }
+}
