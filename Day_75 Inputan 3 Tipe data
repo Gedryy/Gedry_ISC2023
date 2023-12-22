@@ -1,0 +1,28 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        Scanner masuk = new Scanner(System.in);
+      
+        System.out.print(" Masukan Nama : ");
+        String nama;
+        nama = masuk.nextLine();
+        
+        System.out.print(" Masukan Umur :");
+        int umur;
+        umur = masuk.nextInt();
+        
+        System.out.print(" Masukan Tinggi : ");
+        float tinggi;
+        tinggi = masuk.nextFloat();
+        
+        
+        
+        
+        }
+        
+        
+    }
+
