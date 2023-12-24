@@ -1,0 +1,24 @@
+package Java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        String [][] nama = new String [3][3];
+        nama[0][0] = "Udin";
+        nama[0][1] = " Gedry";
+        nama[1][0] = " Aril";
+        nama[1][1] = " Kholil";
+        nama[1][2] = " Abid";
+        nama[2][0] = " Rizky";
+        nama[2][1] = " Rian";
+        nama[2][2] = " Aco";
+        
+        
+        System.out.println(" Saya adalah : "+nama[0][1]);
+        
+        
+        
+    }
+    
+}
