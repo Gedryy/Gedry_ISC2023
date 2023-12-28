@@ -1,0 +1,23 @@
+package Java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        
+        String [] a = {
+            " Aku ",
+            " Anak ",
+            " Teknik "
+        };
+        
+        for( int i = 0; i < a.length; i++){
+            System.out.println(a[i]);
+    }
+    
+}
+}
+        
+        
+        
+    
