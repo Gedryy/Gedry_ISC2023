@@ -1,0 +1,15 @@
+package Java;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        String [][] tahunBaru = {{"2023"}};
+        tahunBaru[0][0] ="2024";
+        System.out.println(" otw menuju ke tahun"+" "+tahunBaru[0][0]);        
+        
+        
+        
+    }
+    
+}
