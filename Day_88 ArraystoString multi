@@ -1,0 +1,27 @@
+package Java;
+
+import java.util.Enumeration;
+import java.util.Vector;
+
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner rahel = new Scanner(System.in);
+        int[][] angka = new int[3][3];
+        angka[0][0] = 20;
+        angka[1][1] = 30;
+        angka[2][2] = 40;
+        System.out.print(Arrays.toString(angka[0]));
+        System.out.print(Arrays.toString(angka[1]));
+        System.out.print(Arrays.toString(angka[2]));
+        
+    }
+}
+            
+   
+        
+        
+        
+        
+    
