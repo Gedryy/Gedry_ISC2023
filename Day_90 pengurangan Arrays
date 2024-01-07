@@ -1,0 +1,16 @@
+package Java;
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner rahel = new Scanner(System.in);
+        
+        int [] a = {30};
+        int [] b = {20};
+        int c = a[0] - b[0];
+        System.out.println(c);
+        
+        
+    }
+
+}
