@@ -1,0 +1,21 @@
+package Java;
+
+public class Main {
+    public static void anggota(){
+        String nama  = " Udin";
+        String nama1 = " Gedry";
+        String nama2 = " Aril";
+        String nama3 = " Kholil";
+        String nama4 = " Rizky";
+        String nama5 = " Herawati";
+        System.out.println(nama+nama1+nama2+nama3+nama4+nama5);
+    
+    
+    
+}
+    
+    public static void main(String[] args) {
+        anggota();
+    }
+    
+}
