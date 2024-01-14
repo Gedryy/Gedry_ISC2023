@@ -1,0 +1,22 @@
+package Java;
+
+public class Main {
+    public static void anggota(){
+        String nama  = " Udin";
+        int umur = 50;
+        System.out.println(nama+" "+ umur+" tahun");
+        
+}
+    public static String wanita(){
+        String nama = " Hera";
+        int umur = 21;
+        return nama+" "+umur+ " tahun";
+    }
+    
+    public static void main(String[] args) {
+        anggota();
+        System.out.println(wanita());
+        
+    }
+    
+}
