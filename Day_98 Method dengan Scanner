@@ -1,0 +1,22 @@
+package Java;
+import java.util.Scanner;
+public class Main {
+  
+    public static String wanita(String nama, int umur){
+        return nama+" berumur"+" "+umur+"th";
+    }
+    
+    public static void main(String[] args) {
+        String nm;
+        int umr;
+        Scanner rahel = new Scanner(System.in);
+        System.out.print(" Nama : ");
+        nm = rahel.nextLine();
+        System.out.print(" Umir : ");
+        umr = rahel.nextInt();
+        System.out.println(" Output :");
+        System.out.println(wanita(nm,umr));
+        
+    }
+    
+}
