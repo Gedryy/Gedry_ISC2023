@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title> tugas </title>
+  </head>
+  <body>
+  <h1>Name : Gedry</h1>
+  <h2>Address : Kalimantan</h2>
+  <h3>Age : 18</h3>
+  <h4>Gender : Male</h4>
+  <h5>Hoby : Football </h5>
+  <h6>Ambition : Web Developer</h6>
+    
+  </body>
+</html>
